@@ -1,10 +1,10 @@
 # SLAM
 
-This repo is an example of work I did in the summer of 2024 when I was first trying to understand SLAM (Simultaneous Localization & Mapping). \
+This repo is an example of work I did in the summer of 2024 when I was first trying to understand SLAM (Simultaneous Localization & Mapping).
 
-The directory EKF-SLAM is a 3D expansion of the open-source 2D Extended Kalman Filter SLAM algorithm written by Atsushi Sakai avaliable here: https://atsushisakai.github.io/PythonRobotics/modules/4_slam/ekf_slam/ekf_slam.html \
+The directory EKF-SLAM is a 3D expansion of the open-source 2D Extended Kalman Filter SLAM algorithm written by Atsushi Sakai avaliable here: https://atsushisakai.github.io/PythonRobotics/modules/4_slam/ekf_slam/ekf_slam.html
 
-Please note my 3D implementation has not been formally validated. \
+Please note my 3D implementation has not been formally validated.
 
 The directory PointNetClassifier contains my fine-tuning of the PointNet, avaliable here: https://github.com/charlesq34/pointnet \
 PointNetClassifier is a binary classifier that distinguishes between LiDAR point clouds representing "ground" or undisturbed earth and "mound", representing heaped raw material.
