@@ -8,9 +8,9 @@ def pcap_to_pcd(input_file, output_folder):
     print('dexgtch')
     os.chdir(output_folder)
 
-output_folder = "C:/Users/sammy/Downloads/PointNetTest/pcd_output"
+output_folder = "/PointNetTest/pcd_output"
 datadir = output_folder + "/velodynevlp16/data_pcl"
-input_file = "C:/Users/sammy/Downloads/PointNetTest/HDL32-V2_Monterey Highway.pcap"
+input_file = "/PointNetTest/HDL32-V2_Monterey Highway.pcap"
 pcap_to_pcd(input_file, output_folder)
 
 def rename_files(datadir):
