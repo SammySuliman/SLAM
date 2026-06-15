@@ -17,6 +17,6 @@ The ideal workflow is that the 3D EKF-SLAM will be able to localize the agent us
 
 ! WARNING !
 
-I developed the PointNetClassifier locally almsot 1 year ago, and some associated files had since been deleted off my local to save storage space. For example, the .pcap file originally containing my sample LiDAR data "HDL32-V2_Monterey Highway.pcap" can be found here: https://data.kitware.com/#item/5b7ffd798d777f06857cb530. This file should then be converted to .pcp format using the file pcap_to_pcd.py, and the resulting .pcp files are used for both PointNetClassifer and EKF-SLAM. The pre-trained weights for the PointNetClassifier are also not avaliable here, please see the file in the repo for the pretrained model linked above, titled classifier_model_state.pth
+I developed the PointNetClassifier locally almost 1 year ago, and some associated files had since been deleted off my local to save storage space. For example, the .pcap file originally containing my sample LiDAR data "HDL32-V2_Monterey Highway.pcap" can be found here: https://data.kitware.com/#item/5b7ffd798d777f06857cb530. This file should then be converted to .pcp format using the file pcap_to_pcd.py, and the resulting .pcp files are used for both PointNetClassifer and EKF-SLAM. The pre-trained weights for the PointNetClassifier are also not avaliable here, please see the file in the repo for the pretrained model linked above, titled classifier_model_state.pth
 
 If there are any other issues experienced while attempting to run this model, please open a new issue and I will try to help.
